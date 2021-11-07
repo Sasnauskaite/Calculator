@@ -1,0 +1,86 @@
+body {
+    background-color:rgb(163, 186, 201);
+    align-items: center;
+}
+@media screen and (orientation: portrait) {
+    .myDiv {
+        margin-top: 0%;
+        width: 100%;
+        height: 50%;
+        margin-left: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .buttons {
+        width: 100%;
+        margin-left: 0;
+    }
+    .button {
+        padding: 25px;
+        font-size: 40px;
+    }
+    p {
+        font-size: 150%;
+    }
+}
+@media screen and (orientation: landscape) {
+    .myDiv {
+        margin-top: 3%;
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 85%;
+    }
+    .buttons {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .button {
+        padding: 10px;
+        font-size: 150%;
+    }
+    p {
+        font-size: large;
+    }
+}
+.myDiv {
+    text-align: center;
+    border: 2px outset rgb(2, 80, 133);
+    background-color: rgb(168, 212, 241);
+}
+.buttons {
+    text-align: center;
+    border: 2px outset rgb(2, 80, 133);
+    background-color: rgb(0, 47, 78);
+}
+.func {
+    background-color: rgb(0, 109, 182);
+}
+.num {
+    background-color: rgb(0, 153, 255);
+}
+.longer {
+    width: 41%;
+}
+.normal {
+    width: 20%;
+}
+.button {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: rgb(98, 192, 255);
+    color: rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0);
+    font-style:italic;
+    text-align: center;
+}
